@@ -1,0 +1,6 @@
+**/__pycache__/
+/build
+/.vscode
+environment.py
+/dist
+chromedriver
