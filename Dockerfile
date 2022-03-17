@@ -42,5 +42,9 @@ RUN pip install -r requirements.txt
 CMD ["python", "silly_bot.py"]
 
 # Build & Run Commands
-# sudo docker build -t silly_bot
-# sudo docker run silly_bot:tag_name
+# sudo docker build -t silly_bot .
+# sudo docker run --name=<name> silly_bot:tag_name 
+
+# Push to docker hub
+# sudo docker tag silly_bot:latest franklysilly/silly_bot:<tag>
+# sudo docker push franklysilly/silly_bot:<tag>

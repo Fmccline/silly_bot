@@ -9,9 +9,10 @@ class RivalCog(commands.Cog):
         self.bot = bot
         self.rivals = {
             'nightbot': 25,
-            'franklysilly': 5, 
-            'sniperqueen1813': 5,
-            'hgtv_nico': 5
+            'franklysilly': 10, 
+            'sniperqueen1813': 3,
+            'hgtv_nico': 5,
+            'Nomadic_GreyBear': 250,
         }
         self.saucy_scraper = SaucyInsultScraper()
     

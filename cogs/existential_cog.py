@@ -20,7 +20,7 @@ class ExistentialCog(commands.Cog):
     # AutoCogs only can accept bot as an init argument which is passed automatically
     def __init__(self, bot):
         self.bot = bot
-        self.existential_chance = 5
+        self.existential_chance = 1
         self.available_crises = self.make_available_crises()
 
     def make_available_crises(self):
